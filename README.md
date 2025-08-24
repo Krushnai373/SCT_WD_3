@@ -3,13 +3,13 @@
 This is a simple Web-based Quiz Game built using HTML, CSS, and JavaScript.
 It allows users to:
 
-Start the quiz from a landing page
-Answer multiple-choice questions one by one
-Track their score in real-time
-Skip a question if needed
-Auto-move to the next question after a countdown timer
-Get a final score screen at the end
-🎉 Special Congratulations message when user scores 100/100
+Start the quiz from a landing page.
+Answer multiple-choice questions one by one.
+Track their score in real-time.
+Skip a question if needed.
+Auto-move to the next question after a countdown timer.
+Get a final score screen at the end.
+🎉 Special Congratulations message when user scores 100/100.
 
 ## 🚀 Features
 ✅ Clean UI with gradient background
