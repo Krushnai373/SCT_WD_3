@@ -1,0 +1,99 @@
+body {
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: linear-gradient(to right, white 0%, #9fe8fc 100%);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.qa_box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 500px;
+    min-height: 100px;
+}
+
+.qa_header {
+    background-color: #0b58a7;
+    margin: -20px -20px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+}
+
+.qa_set {
+    display: none;
+}
+
+.qa_set.Active {
+    display: block;
+}
+
+.qa_set h4 {
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+.qa_options {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.qa_options input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.qa_options span {
+    display: block;
+    background-color: #bad0c9;
+    border-radius: 15px;
+    padding: 8px 15px;
+    transition: all 0.3s ease-out;
+}
+
+.qa_options:hover span {
+    background-color: #9ab5ac;
+}
+
+.qa_options input:checked + span {
+    background-color: #f93c3c;
+}
+
+.qa_options input[valid]:checked + span {
+    background-color: green;
+    color: #fff;
+}
+ .qa_footer {
+    text-align: right;
+    padding: 10px 0 0;
+ }
+
+ .btn1 {
+    background-color: #0b58a7;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    display: inline-block;
+ }
+
+ .btn1:hover {
+    background-color: #064484;
+ }
+ 
